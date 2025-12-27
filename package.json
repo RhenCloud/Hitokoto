@@ -1,0 +1,17 @@
+{
+  "name": "hitokoto-api",
+  "version": "1.0.0",
+  "private": false,
+  "main": "api/hitokoto.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "wrangler:dev": "wrangler dev",
+    "wrangler:publish": "wrangler publish"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "devDependencies": {
+    "wrangler": "^4.54.0"
+  }
+}
